@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:ital,wght@0,700;1,400&display=swap');
+
+*{
+ 
+    font-family: 'Work Sans', sans-serif;
+}
+.nav-container{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    background-color: rgba(255, 144, 14, 0.10);
+}
+.nav-bar{
+    display: flex;
+   gap: 50px;
+   padding-left: 300px;
+    list-style: none;
+    font-size: 18px;
+    color:  #424242;
+}
+nav li a{
+    text-decoration: none;
+    color:  #424242;
+}
+.nav-title{
+    font-size: 45px;
+}
+.brand{
+    text-align: center;
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 40px;
+    
+}
+.brand-title{
+    font-size: 64px;
+}
+.brand-pra{
+    font-size: 13px;
+    color:  #424242;
+}
+.main-button{
+    border-radius: 8px;
+background: #FF900E;
+color: white;
+padding: 20px 25px;
+border: 0px;
+margin-top: 20px;
+}
+.brand-img{
+    width: 1220px;
+height: 600px;
+margin-top: 40px;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.teams-title{
+    font-size: 45px;
+}
+.Quick{
+    color:#727272;
+}
+.Features{
+    color: #FF900E;
+}
+.fact-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.fact-img img{
+    height: 600px;
+    margin-right: 40px;
+}
+.fact-title1{
+    font-size: 45px;
+}
+.ten-button{
+    border-radius: 8px;
+background: #FF900E;
+   padding: 40px 35px;
+   color: white;
+   border: 0px;
+   margin-left: 770px;
+   margin-top: -200px;
+    
+}
+.ten{
+    font-size: 40px;
+}
+.facts{
+    margin-top: 100px;
+}
+.item{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 0px 50px;
+    margin-right: 10px;
+    width: 150px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+   text-align: center;
+   padding: 40px;
+}
+.card-img{
+    margin-top: 40px;
+}
+.card-pra{
+    margin-bottom: 50px;
+    color: #727272;
+}
+.spons-col{
+    text-align: center;
+    margin-top: 80px;
+}
+.spons-con{
+    display: flex;
+    gap: 200px;
+    margin-top: 60px;
+    margin-left: 180px;
+}
+.spons-img{
+    height: 30px;
+}
+.last{
+    text-align: center;
+   
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 20px 60px;
+    margin: 20px 300px;
+    margin-top: 100px;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-bar{
+        flex-direction: column;
+       margin-right: 300px;     
+    }
+    .brand-img{
+        width:500px;
+        height: 700px;
+        margin-left: -30px;
+        
+    }
+    .team-container{
+        flex-direction: column;
+    }
+    .team-img-container{
+  grid-template-columns: 1fr;
+  padding-right: 90px;
+    }
+    .fact-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .ten-button{
+      margin-left: 170px;
+    }
+    .card-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
