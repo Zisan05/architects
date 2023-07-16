@@ -82,7 +82,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
+   margin-top: 200px;
 }
 .fact-img img{
     height: 600px;
@@ -98,7 +98,8 @@ background: #FF900E;
    color: white;
    border: 0px;
    margin-left: 770px;
-   margin-top: -200px;
+  position: relative;
+  bottom: 130px;
     
 }
 .ten{
@@ -166,8 +167,18 @@ background: #FF900E;
         margin-left: -30px;
         
     }
+    .brand p{
+        font-size: 8px;
+    }
     .team-container{
         flex-direction: column;
+        margin-left: 0px;
+    }
+    .team-content{
+        margin-left: 20px;
+    }
+    .brand-pra{
+        font-size: 10px;
     }
     .team-img-container{
   grid-template-columns: 1fr;
@@ -177,12 +188,39 @@ background: #FF900E;
         flex-direction: column;
         gap: 50px;
     }
+    .fact-content{
+        margin-left: 20px;
+    }
+    .fact-content h1{
+        font-size: 40px;
+    }
+    .facts{
+        margin-left: 140px;
+    }
     .ten-button{
       margin-left: 170px;
     }
     .card-container{
         flex-direction: column;
         gap: 10px;
+        margin-left: 130px;
+    }
+    .spons-con{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .spons-con img{
+        width: 100px;
+        margin-left: 180px;
+
+    }
+    .spons-col h1{
+        font-size: 40px;
+
+    }
+    .last{
+        margin-left: 230px;
+        padding: 20px 100px 20px 20px;
     }
     
 }
